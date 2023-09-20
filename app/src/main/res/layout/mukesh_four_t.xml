@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/mukesh_four_gold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnApplyNow"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:elevation="@dimen/_2sdp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_30sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regu"
+                        android:gravity="center"
+                        android:text="Loan Amount"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/mulish_bold"
+                        android:gravity="center"
+                        android:text="₹ 3,000"
+                        android:textColor="@color/duskYellow"
+                        android:textSize="@dimen/sp20" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:src="@drawable/view_img" />
+
+                </LinearLayout>
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_4"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:elevation="@dimen/_2sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:fontFamily="@font/regu"
+                                android:gravity="center"
+                                android:letterSpacing="0.1"
+                                android:text="Repayment"
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="@dimen/_5sdp"
+                                android:layout_marginVertical="@dimen/_5sdp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_60sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginHorizontal="@dimen/_5sdp"
+                                    android:layout_marginVertical="@dimen/_2sdp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/rounded_corner"
+                                    android:backgroundTint="#F3F3F3"
+                                    android:elevation="@dimen/_2sdp"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="@dimen/_8sdp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:text="Processing Fee"
+                                        android:textColor="#494949" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="5dp"
+                                        android:gravity="center"
+                                        android:text="₹ 180.00"
+                                        android:textColor="#000" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_60sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginHorizontal="@dimen/_5sdp"
+                                    android:layout_marginVertical="@dimen/_2sdp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/rounded_corner"
+
+                                    android:backgroundTint="#F3F3F3"
+                                    android:elevation="@dimen/_2sdp"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="@dimen/_8sdp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:text="Total Amount"
+                                        android:textColor="#494949" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="5dp"
+                                        android:gravity="center"
+                                        android:text="₹ 3180.00"
+                                        android:textColor="@color/dark_gray1" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/adsContainer"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="@dimen/_5sdp"
+                                android:layout_marginVertical="@dimen/_5sdp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_60sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginHorizontal="@dimen/_5sdp"
+                                    android:layout_marginVertical="@dimen/_2sdp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/rounded_corner"
+
+                                    android:backgroundTint="#F3F3F3"
+                                    android:elevation="@dimen/_2sdp"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="@dimen/_8sdp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:text="EMIs"
+                                        android:textColor="#494949" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="5dp"
+                                        android:gravity="center"
+                                        android:text="3 EMIs of Rs.1060"
+                                        android:textColor="@color/dark_gray1" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_60sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginHorizontal="@dimen/_5sdp"
+                                    android:layout_marginVertical="@dimen/_2sdp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/rounded_corner"
+                                    android:backgroundTint="#F3F3F3"
+                                    android:elevation="@dimen/_2sdp"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="@dimen/_8sdp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:text="EMI Date"
+                                        android:textColor="#494949" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="5dp"
+                                        android:gravity="center"
+                                        android:text="Next Salary Date"
+                                        android:textColor="@color/dark_gray1" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="@dimen/_10sdp"
+                                android:layout_marginVertical="@dimen/_8sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_bg"
+                                android:elevation="@dimen/_2sdp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="@dimen/_8sdp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_marginRight="5dp"
+                                        android:adjustViewBounds="true"
+                                        android:src="@drawable/ic_offer"
+                                        android:visibility="gone"
+                                        app:tint="#736D7B" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="@font/mulish_medium"
+                                        android:gravity="center"
+                                        android:text="Zero Cost Offer"
+                                        android:textColor="#494949"
+                                        android:textSize="@dimen/_10sdp" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulish_medium"
+                                    android:gravity="center"
+                                    android:text="Pay Rs. 3000 before first EMI date."
+                                    android:textColor="@color/duskYellow"
+                                    android:textSize="@dimen/_11sdp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/btnApplyNow"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_90sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ifsc_bg"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/mulish_bold"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_4sdp"
+        android:text="Apply Loan"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11sdp" />
+
+</RelativeLayout>

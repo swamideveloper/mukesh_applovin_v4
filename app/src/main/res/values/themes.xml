@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="MyEditTextTheme">
+        <item name="colorControlActivated">#b400ff</item>
+        <item name="colorControlHighlight">#b400ff</item>
+        <item name="colorControlNormal">#b400ff</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="android:typeface">monospace</item>
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/mulish_medium</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="ColorStatusBarBilling" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <!--    <style name="Theme.TranslatorLanguageTranslatorVoiceTranslator" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--        <item name="colorPrimaryDark">@color/white</item>-->
+    <!--        <item name="android:windowNoTitle">true</item>-->
+    <!--        <item name="colorAccent">@color/colorPrimary</item>-->
+    <!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="android:windowContentOverlay">@null</item>-->
+    <!--        <item name="android:windowTranslucentStatus">true</item>-->
+    <!--        <item name="android:statusBarColor">@color/transparent</item>-->
+    <!--        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>-->
+    <!--    </style>-->
+
+    <style name="Theme.TranslatorLanguageTranslatorVoiceTranslator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="SemiBold" parent="android:TextAppearance">
+        <item name="fontPath">font/SemiBold.ttf</item>
+    </style>
+
+
+    <!--    sdk-->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black</item>
+        <item name="colorAccent">#03A9F4</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+
+</resources>

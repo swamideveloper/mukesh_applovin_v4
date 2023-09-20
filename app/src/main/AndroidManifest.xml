@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fastcash.speedloancoach.quickloan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <queries>
+        <package android:name="com.facebook.katana" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+
+    <application
+        android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_nine.mukesh_four_ke"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:networkSecurityConfig">
+
+
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_mahe"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_bhav"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_rupe"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_sungndhim"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_bardhanam"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_two.mukesh_four_yaja"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+
+
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_nine.mukesh_four_bhi"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TranslatorLanguageTranslatorVoiceTranslator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+
+
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_seven.mukesh_four_hi"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_seven.mukesh_four_kya"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_thirteen.mukesh_four_chale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_thirteen.mukesh_four_chaya"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_four.mukesh_four_jalti"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_three.mukesh_four_ke"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_three.mukesh_four_kal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_four.mukesh_four_ganesha"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_thirteen.mukesh_four_bhakti"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_four.mukesh_four_jala"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_thirteen.mukesh_four_teri"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_eleven.mukesh_four_dev"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_eleven.mukesh_four_ladu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_thirteen.mukesh_four_ka"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_eleven.mukesh_four_choriya"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fastcash.speedloancoach.quickloan.mukesh_pkg_eleven.mukesh_four_jaydev"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.fastcash.speedloancoach.quickloan.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+
+        </provider>
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="VO181IszOnVa2cVvCfavcX3mNLg1JEGd9W5oAuiO207I8_1OA8hC7T9OxhWan4SLamWrJn5fcT_U4Iv6IpE3ba" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color2"
+    android:orientation="vertical">
+
+    <include layout="@layout/mukesh_four_gold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnApply"
+            android:layout_marginBottom="10dp"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:id="@+id/adsContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/adsContainer"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+
+                <LinearLayout
+                    android:id="@+id/llNoLoan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/adsContainer"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:fontFamily="@font/mulish_bold"
+                        android:gravity="center"
+                        android:text="You have no Loan yet. Apply for new Loan."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mulish_regular"
+                        android:gravity="center"
+                        android:text="You can avail a Startup business loan from a bank or a financial body in order to raise funds to start a business of your own or expand your current business. The rate of interest charged by the bank will depend on the loan amount availed by you and the repayment tenure.\10There are more than 39,000 startups in India at present who have access to many private equity and debt funding options. However, it is a challenge to get funding when the business is just an idea or is in the early stage. Also, the Micro, Small, and Medium Enterprises (MSME) sector in India only has limited access to formal credit which is why the Government of India decided to roll out startup business loan schemes for MSMEs and startups.\10 This is a digital platform which allows you to avail business loans if you are looking to establish a business. Based on your eligibility criteria and other requirements, you can avail loan amount of up to Rs.10 lakh under the Mudra Loan scheme, and Rs.5 crore under the MSME loan scheme. You can also apply for personal loan of up to Rs.20 lakh, home loan of up to Rs.10 crore, and auto loan of up to Rs.1 crore as well."
+                        android:textColor="#474747"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/btnApply"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_60sdp"
+            android:background="@drawable/ifsc_bg"
+            android:backgroundTint="@color/blue"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/mulish_bold"
+                android:gravity="center"
+                android:text="Apply"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
